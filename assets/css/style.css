@@ -1,0 +1,26 @@
+
+ body{
+  font-family: 'Roboto', sans-serif;
+ }
+
+ h1, h2, h3, h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+ }
+
+ .carousel-indicators li {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+ }
+ #inicio{
+   background-image: url(../img/bg-header.jpg);
+   background-position: left bottom;
+   background-size: cover;
+ }
+ #inicio h1{
+   padding-top: 300px;
+   
+ }
+
+ 
