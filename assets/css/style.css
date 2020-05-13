@@ -1,13 +1,21 @@
 
  body{
   font-family: 'Roboto', sans-serif;
+  background-image: url(../img/bg-header.jpg);
+  background-position: right bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed ;
  }
 
  h1, h2, h3, h4{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
  }
-
+ h3, h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+ }
  .carousel-indicators li {
    width: 10px;
    height: 10px;
@@ -15,15 +23,17 @@
  }
  #inicio{
    background-image: url(../img/bg-header.jpg);
-   background-position: left bottom;
+   background-position: right bottom;
    background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed ;
  }
  #inicio h1{
    padding-top: 300px;
    
  }
  .barra{
-   margin-top: 10px;
+   margin-top: 20px;
  }
 
  .ancla:before {
@@ -32,6 +42,17 @@
   margin-top: -100px;
   height: 100px;
   visibility: hidden;
+}
+.bg-azul{
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.94) 1%, rgba(0,0,0,1) 87%, rgba(0,0,0,0) 100%);
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.94) 1%,rgba(0,0,0,1) 87%,rgba(0,0,0,0) 100%);
+background: linear-gradient(to bottom,  rgba(0,0,0,0.94) 1%,rgba(0,0,0,1) 87%,rgba(0,0,0,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0000000', endColorstr='#00000000',GradientType=0 );
+
+  
+}
+.bg-blanco{
+  background-color: #ffffff;
 }
 
  

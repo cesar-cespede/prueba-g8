@@ -23,7 +23,7 @@
 <body>
   <!-- inicio nav > -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-azul container-fluid sticky-top">
     <div class="container">
       <a class="navbar-brand" href="#inicio">
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -47,7 +47,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active" href="#yo">Sobre Mi <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#yo">Sobre Mi <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#experiencia">Experiencia</a>
           <a class="nav-item nav-link" href="#skills">Skills</a>
           <a class="nav-item nav-link" href="#trabajos">Trabajo</a>
@@ -58,12 +58,14 @@
   </nav>
   
   <!-- fin nav  -->
-  <section id="inicio" class="text-white ancla">
+  <section id="inicio" class="text-white ancla ">
     <h1 class="text-center">César Céspede</h1>
     <h3 class="text-center">#Diseñador_Gráfico{</h3>
     <h5 class="text-center pb-4">Primo-de-Magdalena: yes;}</h4>
   </section>
-  <section id="yo" class="ancla d-none d-sm-block container my-5 ">
+
+  <div class="container-fluid bg-blanco">
+  <section id="yo" class="ancla d-none d-sm-block container my-5 bg-blanco ">
     <h2 class="text-center">.sobre_mi{</h2>
     <p class="px-5 py-4 text-center">Comprometido, multifuncional y motivado, preparado para los desafíos diarios del
       área gráfica o administrativa.
@@ -85,8 +87,9 @@
     </div>
     <h2>}</h2>
   </section>
+</div>
 
-  <div class=" bg-secondary py-5">
+  <div class="py-5 text-white">
     <section class="container mt-5 ancla" id="experiencia">
 
       <h2 class="text-center mb-5">.experiencia últimos_empleos{</h2>
@@ -131,7 +134,7 @@
     </section>
   </div>
   <!-- Fin carrousel -->
- 
+ <div class="container-fluid bg-blanco">
   <section class="container py-5">
     <div class="ancla" id="skills"></div>
     <h2 class="text-center">.habilidades{</h2>
@@ -141,16 +144,17 @@
         <h3 class="text-right">#photoshop</h3>
         <h3 class="text-right">#illustrator</h3>
         <h3 class="text-right">#indesign</h3>
+        <h3 class="text-right">#indesign</h3>
 
       </div>
       <div class="col-md-4">
-        <div class="progress barra">
-          <div class="progress-bar py-auto" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+        <div class="progress mt-3">
+          <div class="progress-bar py-auto" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0"
             aria-valuemax="100">
           </div>
         </div>
         <div class="progress barra">
-          <div class="progress-bar py-auto" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+          <div class="progress-bar py-auto" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0"
             aria-valuemax="100">
           </div>
         </div>
@@ -169,40 +173,39 @@
     </div>
     <h2>}</h2>
   </section>
+</div>
 
   <section id="trabajos"  class="ancla container">
-    <h2 class="text-center">.últimos_trabajos{</h2>
+    <h2 class="text-center text-white">.últimos_trabajos{</h2>
     <div class="card-deck py-5">
       <div class="card">
-        <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="card 1">
+        <img src="assets/img/ricomida.png" class="card-img-top" alt="card 1">
         <div class="card-body">
-          <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+          <h5 class="card-title">Ricomida</h5>
           <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
             blandit erat luctus faucibus orci.</p>
         </div>
       </div>
       <div class="card">
-        <img src="assets/img/recipe-card-2.png" class="card-img-top" alt="card 2">
+        <img src="assets/img/meet_coffee.png" class="card-img-top" alt="card 2">
         <div class="card-body">
-          <h5 class="card-title">TIRAMISÚ </h5>
+          <h5 class="card-title">Meet & Coffe </h5>
           <p class="card-text"> <br> Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed
             faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
         </div>
       </div>
       <div class="card">
-        <img src="assets/img/recipe-card-3.png" class="card-img-top" alt="card 3">
+        <img src="assets/img/cuppon.png" class="card-img-top" alt="card 3">
         <div class="card-body">
-          <h5 class="card-title">PLATEADA <br> </h5>
+          <h5 class="card-title">Cuppon <br> </h5>
           <p class="card-text"> <br> Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac
             eleifend risus, urna auctor inceptos mattis dapibus.</p>
         </div>
       </div>
     </div>
-    <h2>}</h2>
+    <h2 class="text-white">}</h2>
   </section>
-  <section id="contacto" class="ancla container-fluid bg-danger py-5 text-white newsletter">
-    <h3 class="text-center pt-5 ">SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
-    <p class="text-center">y obtén las mejores recetas que tenemos en <span class="logo">Ricomida</span></p>
+  <section id="contacto" class="ancla container-fluid py-5 ">
     <div class="formulario text-center">
       <div class="typeform-widget text-white" data-url="https://wananarts.typeform.com/to/F3y4Cd"
         data-transparency="100" data-hide-headers=true data-hide-footer=true style="width: 100%; height: auto;"></div>
