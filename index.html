@@ -49,20 +49,21 @@
         <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link active" href="#yo">Sobre Mi <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#experiencia">Experiencia</a>
-          <a class="nav-item nav-link" href="#trabajos">Trabajo</a>
           <a class="nav-item nav-link" href="#skills">Skills</a>
+          <a class="nav-item nav-link" href="#trabajos">Trabajo</a>
           <a class="nav-item nav-link" href="#contacto">Contacto</a>
         </div>
       </div>
     </div>
   </nav>
+  
   <!-- fin nav  -->
-  <section id="inicio" class="text-white">
+  <section id="inicio" class="text-white ancla">
     <h1 class="text-center">César Céspede</h1>
     <h3 class="text-center">#Diseñador_Gráfico{</h3>
     <h5 class="text-center pb-4">Primo-de-Magdalena: yes;}</h4>
   </section>
-  <section id="yo" class="d-none d-sm-block container my-5">
+  <section id="yo" class="ancla d-none d-sm-block container my-5 ">
     <h2 class="text-center">.sobre_mi{</h2>
     <p class="px-5 py-4 text-center">Comprometido, multifuncional y motivado, preparado para los desafíos diarios del
       área gráfica o administrativa.
@@ -86,12 +87,12 @@
   </section>
 
   <div class=" bg-secondary py-5">
-    <section class="container mt-5" id="Experiencia">
+    <section class="container mt-5 ancla" id="experiencia">
 
-      <h2 class="text-center">.últimos_empleos{</h2>
-    </section>
+      <h2 class="text-center mb-5">.experiencia últimos_empleos{</h2>
+
     <!-- carousel -->
-    <section class="container d-none d-md-block">
+
       <div class="row">
         <div class="col-md-3 tex">
           <img src="assets/img/logos_e_mestra.jpg" alt="slider 1" class="img-fluid">
@@ -130,8 +131,9 @@
     </section>
   </div>
   <!-- Fin carrousel -->
-
-  <section id="skills" class="container py-5">
+ 
+  <section class="container py-5">
+    <div class="ancla" id="skills"></div>
     <h2 class="text-center">.habilidades{</h2>
     <div class="row">
       <div class="col-md-2"></div>
@@ -165,11 +167,11 @@
       </div>
       <div class="col-md-2"></div>
     </div>
-    }
+    <h2>}</h2>
   </section>
 
-  <section class="container">
-    <h3 class="text-center">RECETAS RELACIONADAS</h3>
+  <section id="trabajos"  class="ancla container">
+    <h2 class="text-center">.últimos_trabajos{</h2>
     <div class="card-deck py-5">
       <div class="card">
         <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="card 1">
@@ -196,8 +198,9 @@
         </div>
       </div>
     </div>
+    <h2>}</h2>
   </section>
-  <section id="experiencia" class="container-fluid bg-danger py-5 text-white newsletter">
+  <section id="contacto" class="ancla container-fluid bg-danger py-5 text-white newsletter">
     <h3 class="text-center pt-5 ">SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
     <p class="text-center">y obtén las mejores recetas que tenemos en <span class="logo">Ricomida</span></p>
     <div class="formulario text-center">
@@ -235,7 +238,9 @@
   </footer>
 
 
-  <!-- fin carousel -->
+
+  
+
 
 
   <!-- Optional JavaScript -->

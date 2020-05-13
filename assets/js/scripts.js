@@ -9,7 +9,7 @@ $(function () {
 
       $("html, body").animate({
         scrollTop: $(micifus).offset().top
-      }, 1500, function(){
+      }, 800, function(){
         window.location.hash = micifus;
       });
     }
