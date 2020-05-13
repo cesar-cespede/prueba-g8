@@ -16,33 +16,37 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
  }
- .carousel-indicators li {
-   width: 10px;
-   height: 10px;
-   border-radius: 50%;
- }
+
  #inicio{
    background-image: url(../img/bg-header.jpg);
    background-position: right bottom;
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed ;
+   height: 500px;
  }
  #inicio h1{
-   padding-top: 300px;
-   
+
+
  }
+.texto{
+  position: relative;
+  top: 40%;
+  
+  
+}
  .barra{
    margin-top: 20px;
  }
 
- .ancla:before {
+ /* .ancla:before {
   display: block;
   content: "";
-  margin-top: -100px;
+  padding-top: -100px;
   height: 100px;
   visibility: hidden;
-}
+} */
+
 .bg-azul{
   background: -moz-linear-gradient(top,  rgba(0,0,0,0.94) 1%, rgba(0,0,0,1) 87%, rgba(0,0,0,0) 100%);
 background: -webkit-linear-gradient(top,  rgba(0,0,0,0.94) 1%,rgba(0,0,0,1) 87%,rgba(0,0,0,0) 100%);
