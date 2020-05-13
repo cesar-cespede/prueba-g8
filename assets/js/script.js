@@ -1,5 +1,7 @@
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip();
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
 
   $("a").click(function(event){
     if (this.hash !== "") {
@@ -15,3 +17,4 @@ $(function () {
     }
   });
 })
+
